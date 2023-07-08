@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+
+
+/* navbar */
+
+#top_nav{
+    background-color: #e6ecec; 
+    margin: 0% ;
+    
+}
+.nav-item{
+ padding-left: 35px;
+}
+#logo-red{
+      height: 50px;
+      width: 160px;
+     }
+  #navbar a:hover {
+    background-color: #b83838;
+    color: black;
+  }
+  
+  /* Style the active/current link */
+  #navbar a.active {
+    background-color: rgb(218, 223, 228);
+    color: white;
+  }
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 112px;
+    margin-right: auto;
+    margin-left: auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #c9cccf;
+    text-align: left;
+    background-color: #fff;
+}  
+
+#sbtn{
+  padding-left: 150px;
+}
+
+.find-more-inner span {
+  
+  margin-top: 30px;
+  
+  font-size: 15px;
+  line-height: 25px;
+  color: #ece9e9;
+  font-weight: 600;
+  display: flex;
+}
+
+.find-more-inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body{
+  background-color: #f7f7fa;
+}
+
+</style>
+<body>
+  <nav class="navbar navbar-expand-lg  bg-secondary color-white">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="" alt=""></a>  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Products</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Soluction
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex" id="sbtn">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- body start -->
+<div class="container-fluid">
+  <div class="row" >
+<div class-md-6>
+<img src="page3.webp" alt="">
+</div>
+<div class-md-6>
+<img src="page31.webp" alt="">
+</div>
+
+  </div>
+</div>
+
+<div class="container-fluid bg-dark">
+  <article class="">
+  <div class="row" >
+          <div class="col-md-3 find-md3 align-items-center text-center">
+                  <h2 class="" style="color: rgb(238, 242, 247); align-items: center;" >Find More <br>
+                  about Airtel</h2>
+          </div>
+          <div class="col-md-9 find-more-inner align-items-center text-center">
+                 <div class=""> <i class="fa-solid fa-user" style="color: #f5f5f5;"></i>
+                 <span> Company <br> Profile </span>
+                 </div>
+
+                 <div> <img src="find-more-icon-2-.svg" alt=""> <br>
+                  <span> Corporate <br> Governance </span>
+                  </div>
+                  <div> <img src="find-more-icon-3.svg" alt=""> <br>
+                          <span> Results <br> Governance </span>
+                          </div>
+                          <div class="gogo"> <i class="fa-solid fa-up-right-from-square" style="color: #f0f2f5;"></i> <br>
+                                  <span> All about <br> sares </span>
+                                  </div>
+                                  <div> <i class="fa-sharp fa-light fa-record-vinyl" style="color: #e5e7eb;"></i>
+                                          <br>
+                                          <span> Results <br> Spotlight</span>
+                                          </div>
+                                  
+                                  <div> <img src="find-more-icon-6.svg" alt=""> <br>
+                                          <span> Support and <br> communication </span>
+                                          </div>
+          </div>
+          
+  </div>
+  </article>
+</div>
+
+</body>
+</html>
